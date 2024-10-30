@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "#/*": ["src/*"],
+      "#lib/*": ["src/lib/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.d.ts"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "quicker",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Aashish Panchal <aipanchal51@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm --parallel dev",
+    "build": "pnpm --parallel build",
+    "lint": "pnpm --parallel lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=16.20.1"
+  },
+  "packageManager": "pnpm@9.5.0"
+}

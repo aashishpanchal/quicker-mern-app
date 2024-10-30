@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head', { title: `Register on ${appName}`}) %>
+</head>
+<body>
+    <div class="container">
+        <h2 class="header"><%= appName %> Email Verification</h2>
+        <p>
+            Thank you for joining <%= appName %>! We're excited to have you on board.please
+            confirm that the email <%= email %> address you provided is correct., use the verification code complete the process.
+        </p>
+        <h3><%= code %></h3>
+        <p>The code will expires in <%= exp %> minutes.<br>If you did not sign up for <%= appName %>, please ignore this email.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "watch": ["src", ".env"],
+  "ext": "ts,json",
+  "execMap": {
+    "ts": "ts-node --swc -r tsconfig-paths/register"
+  }
+}
