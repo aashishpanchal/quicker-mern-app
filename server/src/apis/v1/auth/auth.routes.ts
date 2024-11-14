@@ -1,3 +1,4 @@
+import './strategies';
 import {Router} from 'express';
 import {EmailDto} from '#lib/dto';
 import {validate} from '#/middlewares';

@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/MonaSans-Medium.ttf",
+      "sha1": "7078b4798f73f1375ee284076d11897513804351"
+    },
+    {
+      "path": "assets/fonts/MonaSans-Regular.ttf",
+      "sha1": "ae1b0abcfc13f043bdd116efb34cb652bd3ecb4b"
+    },
+    {
+      "path": "assets/fonts/MonaSans-SemiBold.ttf",
+      "sha1": "ca589fc844ae7a2c20ba8d9d55efc0aa3dd4aec6"
+    }
+  ]
+}
